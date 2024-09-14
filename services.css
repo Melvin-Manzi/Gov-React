@@ -1,0 +1,296 @@
+.service{
+    width: 100%;
+    height: 110vh; /* 100vh ensures it covers the full viewport height */
+    background-image: url("../components/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 193%;
+}
+.service::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 59, 73, 0.9); /* Blue color with 50% opacity */
+    z-index: 1;
+}
+.exploration{
+    color: white;
+    z-index: 111;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    font-size: 47px;
+    width: 40vw;
+    text-align: left;
+}
+.new-box{
+    width: 31vw;
+    height: 80vh;
+    background-color: white;
+    z-index: 111;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+.lists{
+    display: block;
+    color: rgb(174, 174, 174);
+    width: 24vw;
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 80px;
+    font-weight: 400;
+   
+}
+.lists-item{
+    border-bottom: 0.75px solid #e7e7e7;
+    padding-bottom: 16px; padding-top: 16px;
+    padding-left: 15px;
+}
+.lists-item:hover{
+    color: #2dcd7c;
+    cursor: pointer;
+    transition: 0.75s ease;
+    background: #f2f5f6;
+}
+.discover-more{
+    background: #2dcd7c;
+    color: white;
+    width: 14vw;
+    height: 8.5vh;
+    border: none;
+   position: absolute;
+   right: 12%;
+   top: 75%;
+   font-size: 14.5px;
+}
+.discover-more:hover{
+    background: #003b49;
+    cursor: pointer;
+    transition: 0.75s ease;
+}
+.exp-cons{
+    font-size: 17px;
+    position: absolute;
+    top: 57%;
+    left: 7%;
+    color: #9cb7bd;
+    z-index: 111;
+    width: 41vw;
+    text-align: left;
+    line-height: 27px;
+}
+.event{
+    background: white;
+    height: 100vh;
+    width: 98.5vw;
+    position: absolute;
+    top: 320%;
+    z-index: 111;
+}
+.upcoming{
+    color: #2dcd7c;
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+}
+.first-event,.second-event,.third-event,.fourth-event{
+    width: 20vw;
+    height: 60vh;
+    background-image: url("../components/images/gorilla.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    border-radius: 13px;
+}
+.first-event:before,.second-event:before,.third-event:before,.fourth-event:before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 59, 73, 0.7); /* Blue color with 50% opacity */
+    z-index: 1;
+    border-radius: 13px;
+}
+.first-event-name,.second-event-name,.third-event-name,.fourth-event-name{
+    color: white;
+    position: absolute;
+    top: 20%;
+    z-index: 111;
+    left: 16%;
+}
+.first-event-date,.second-event-date,.third-event-date,.fourth-event-date{
+    color: white;
+    position: absolute;
+    font-size: 19px;
+    top: 80%;
+    left: 25%;
+    z-index: 111;
+}
+.second-event{
+    background-image: url("../components/images/independence.avif");
+    left: 27%;
+}
+.second-event-date{
+    left: 40%;
+}
+.second-event-name{
+    left: 1%; text-align: center;
+}
+.third-event{
+    background-image: url("../components/images/liberation.jpg");
+    left: 49.5%;
+}
+.third-event-name{
+    left: 19%;
+    text-align: center;
+    width: 10vw;
+}
+.third-event-date{left: 40%;}
+.fourth-event{
+    background-image: url("../components/images/elecion.jpg");
+    left: 72%;
+}
+.fourth-event-name{left: 11.5%;}
+.fourth-event-date{left: 35%;}
+.first-event:hover,.second-event:hover,.third-event:hover,.fourth-event:hover{cursor: pointer;}
+.newsletter{
+    background: #2dcd7c;
+    position: absolute;
+    top: 430%;
+    z-index: 111;
+    width: 93.5vw;
+    height: 30vh;
+    right: 0%;
+}
+.open-mail{
+    position: absolute;
+    z-index: 211;
+    top: 450%;
+    left: 50%;
+}
+.connected{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 23%;
+}
+.joining{
+    color: white;
+    position: absolute;
+    top: 37%;
+    left: 15%;
+}
+.subscribe{
+    background: #003b49;
+    color: white;
+    border: none;
+    width: 13vw;
+    height: 8vh;
+    font-size: 14.5px;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+}
+.subscribe:hover{
+    cursor: pointer;
+}
+.join-email{
+    height: 7.63vh;
+    width: 29vw;border: none;
+    font-size: 14.5px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    padding-left: 11px;
+}
+.join-email:focus{
+    outline: none;
+    color: grey;
+}
+footer{
+    background: #003b49;
+    width: 98.5vw;
+    height: 20vh;
+    position: absolute;
+    top: 460%;
+    z-index: 111;
+}
+footer h1{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    left: 5.5%;
+}
+.footer-text{
+    color: #9cb7bd;
+    font-size: 15px;
+    position: absolute;
+    top: 20%;
+    left: 5.5%;
+}
+footer p{
+    color: #9cb7bd;
+    position: absolute;
+    top: 65%;
+    left: 39%;
+}
+@media only screen and (max-width: 768px) {
+    .exploration, .exp-cons {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .new-box {
+        width: 90%;
+    }
+
+    .lists-item {
+        font-size: 1em;
+    }
+
+    .discover-more {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .upcoming {
+        font-size: 1.5em;
+    }
+
+    .event h1 {
+        font-size: 1.2em;
+    }
+
+    .event p {
+        font-size: 0.9em;
+    }
+
+    .newsletter {
+        padding: 20px;
+    }
+
+    .joining {
+        font-size: 1.2em;
+    }
+
+    .join-email {
+        width: 90%;
+    }
+
+    .subscribe {
+        width: 90%;
+        padding: 15px;
+    }
+}
