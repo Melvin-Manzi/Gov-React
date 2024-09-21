@@ -1,0 +1,214 @@
+/* First Div */
+.first-div {
+    background-color: white;
+    box-shadow: 2px 10px 10px 0px rgb(220, 220, 220);
+    height: 70vh;
+    width: 38vw;
+    position: absolute;
+    top: 18%;
+    left: 29%;
+  }
+  
+  /* Heading */
+  .giv {
+    color: #003b49;
+    font-size: 25px;
+    position: absolute;
+    top: 5%;
+    left: 30.5%;
+  }
+  
+  /* Inputs */
+  .first-input {
+    width: 23vw;
+    height: 6.5vh;
+    padding-left: 20px;
+    position: absolute;
+    top: 36%;
+    right: 18.5%;
+    background: none;
+    border: 2px solid #434e56;
+  }
+  
+  .second-input {
+    top: 46%;
+  }
+  
+  .first-input:focus {
+    border: none;
+    outline: 2px solid #2dcd7c;
+    color: #1b1b1b;
+  }
+  
+  /* Button */
+  .btn {
+    background: #2dcd7c;
+    border: none;
+    color: white;
+    width: 25vw;
+    height: 6.5vh;
+    position: absolute;
+    top: 65%;
+    right: 18.5%;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #003b49;
+  }
+  
+  /* Links */
+  .forgot,
+  .reg {
+    color: #6b7a85;
+    position: absolute;
+    top: 73%;
+    right: 53%;
+    font-size: 14.5px;
+  }
+  
+  .forgot:hover,
+  .rex:hover {
+    color: #2dcd7c;
+    cursor: pointer;
+  }
+  
+  .reg {
+    right: 20.8%;
+    text-decoration: none;
+  }
+  
+  .rex {
+    text-decoration: none;
+    color: #6b7a85;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1199.98px) {
+    .first-div {
+      width: 50vw;
+      left: 25%;
+    }
+  
+    .giv,
+    .first-input,
+    .btn {
+      width: 40vw;
+      right: 5%;
+    }
+  
+    .second-input {
+      top: 46%;
+      right: 5%;
+    }
+  
+    .forgot {
+      top: 73%;
+      right: 45%;
+    }
+  
+    .reg {
+      top: 73%;
+      right: 15%;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    .first-div {
+      width: 60vw;
+      left: 20%;
+    }
+  
+    .giv {
+      font-size: 20px;
+      left: 25%;
+    }
+  
+    .first-input,
+    .btn {
+      width: 45vw;
+      right: 7.5%;
+    }
+  
+    .second-input {
+      top: 46%;
+      right: 7.5%;
+    }
+  
+    .forgot {
+      top: 73%;
+      right: 40%;
+    }
+  
+    .reg {
+      top: 73%;
+      right: 12.5%;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .first-div {
+      width: 80vw;
+      left: 10%;
+    }
+  
+    .giv {
+      font-size: 18px;
+      left: 20%;
+    }
+  
+    .first-input,
+    .btn {
+      width: 65vw;
+      right: 7.5%;
+    }
+  
+    .second-input {
+      top: 46%;
+      right: 7.5%;
+    }
+  
+    .forgot {
+      top: 73%;
+      right: 35%;
+    }
+  
+    .reg {
+      top: 73%;
+      right: 10%;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .first-div {
+      width: 90vw;
+      left: 5%;
+    }
+  
+    .giv {
+      font-size: 16px;
+      left: 15%;
+    }
+  
+    .first-input,
+    .btn {
+      width: 75vw;
+      right: 7.5%;
+    }
+  
+    .second-input {
+      top: 46%;
+      right: 7.5%;
+    }
+  
+    .forgot {
+      top: 73%;
+      right: 30%;
+    }
+  
+    .reg {
+      top: 73%;
+      right: 5%;
+    }
+  }
+  
