@@ -1,0 +1,153 @@
+.background{
+    width: 100%;
+    height: 105vh; /* 100vh ensures it covers the full viewport height */
+    background-image: url("../components/images/radisson\ group.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background::before{
+    content: '';
+    position: absolute;
+    top: 19%;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    background-color: rgba(0, 59, 73, 0.65); /* Blue color with 50% opacity */
+    z-index: 1;
+}
+.heading{
+    position: absolute;
+    top: 54%;
+    left: 7.5%;
+    color: white;
+    font-size: 19px;
+    z-index: 11;
+}
+.heading-more{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: white;
+    font-size: 85px;
+    text-align:left;
+    width: 50vw;
+    z-index: 11;
+    line-height: 90px;
+}
+.log-in-btn{
+    width: 12vw;
+    height: 8vh;
+    z-index: 11;
+    position: absolute;
+    top: 96%;
+    left: 7.5%;
+    color: white;
+    background: #2dcd7c;
+    border: none;
+    font-size: 17.5px;
+}
+.log-in-btn:hover{
+    background: #003b49;
+    cursor: pointer;
+    transition: 0.75s ease;
+}
+.box{
+    width: 80vw;
+    height: 23vh;
+    position: absolute;
+    top: 119%;
+    left: 8.7%;
+    background: rgb(238, 238, 238);
+    box-shadow: 20px 20px 40px 1px rgb(196, 196, 196);
+    z-index: 11;
+}
+.record-text,.service-text,.compliance-text{
+    position: absolute;
+    top: 39%;
+    left: 12%;
+    color: #003b49;
+    font-size: 21px;
+    font-weight: 600;
+}
+.service-text{
+ left: 44.6%;
+}
+.compliance-text{
+    left: 73.5%;
+    width: 10vw;
+}
+.first-circle{
+    position: absolute;
+    top: -30%;
+    left: 13.4%;
+    z-index: 111;
+}
+.second-circle{
+    position: absolute;
+    top:-30%;
+    left: 43.5%;
+}
+.third-circle{
+    position: absolute;
+    top: -30%;
+    left: 74.5%;
+}
+.board{
+    position: absolute;
+    top: -11%;
+    left: 17%;
+    z-index: 111;
+}
+.boards{
+    position: absolute;
+    top: -11%;
+    left: 47%;
+    z-index: 111;
+}
+.boardx{
+    position: absolute;
+    top: -11%;
+    left: 77.55%;
+    z-index: 111;
+}
+.viewing{
+width: 14vw;
+height: 8vh;
+padding-top: 7px;
+background: #2dcd7c;
+position: absolute;
+top: 162%;
+right: 10%;
+border: none;
+color: white;
+font-size: 16px;
+z-index: 121;
+}
+.viewing:hover{
+    background: #003b49;
+    transition: 0.75s ease;
+    cursor: pointer;
+}
+.service-input{
+    width: 30vw;
+    font-size: 17.5px;
+    z-index: 111;
+    position: absolute;
+    top: 162%;
+    right: 23.5%;
+    padding-left: 12px;
+    padding-top: 4px;
+    background: none;
+    border: 2px solid #2dcd7c;
+    height: 6.5vh;
+}
+.service-input:focus{
+    outline: none;
+    color: grey;
+}
+.record-text:hover,.service-text:hover,.compliance-text:hover{
+    color: #2dcd7c;
+    cursor: pointer;
+    transition: 0.75s ease;
+}
