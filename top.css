@@ -1,0 +1,50 @@
+.top{
+    height: 6vh;
+    width: 98.5vw;
+    background-color: #003b49;
+    position: absolute;
+    top: 0%;
+}
+.mail{
+    width: 3.2vw;
+    position: absolute;
+    top: 14%;
+    left: 10%;
+}
+.clock{
+    width: 2vw;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.mail-text,.clock-text{
+    color: #abc9cf;
+    font-size: 13.5px;
+    position: absolute;
+    top: -16%;
+    left: 13.2%;
+}
+.clock-text{
+    top: -13%;
+    left: 32.5%;
+}
+.languages{
+    background: #2dcd7c;
+    width: 15vw;
+    height: 6vh;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.lang,.langs{
+    font-size: 16px;
+    position: absolute;
+    top: -26%;
+    left: 30%;
+    color: white;
+    font-weight: 500;
+}
+.langs{
+    left: 60%;
+    color: #c4feff;
+}
